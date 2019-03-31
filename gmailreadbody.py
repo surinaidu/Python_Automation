@@ -2,7 +2,7 @@ import imaplib, email
 import docx
 
 user = 'pythonemailtest007@gmail.com'
-pwd = 'python007'
+pwd = 'your pwd'
 imp_url = 'imap.gmail.com'
 
 print('Python prgm')
