@@ -37,7 +37,7 @@ for i in range(last_mail_id, first_mail_id, -1):
                     mailBody = email.message_from_string(body.decode('utf-8'))
                     print(mailBody)
                     doc.add_paragraph(str(mailBody))
-                    doc.save('wystarArch.docx')
+                    doc.save('architecture.docx')
 
 
 
